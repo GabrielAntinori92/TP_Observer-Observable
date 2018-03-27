@@ -20,7 +20,9 @@ public class Mecanico implements Observer {
 
 
     @Override
-    public void update(Observable o, Object arg) {
+    public void update(Observable o, Object msg) {
+
+        System.out.println(msg);
 
     }
 }
